@@ -1,0 +1,41 @@
+#Problem3
+Students = ["Arun", "Bala", "Kavin", "Ravi"]
+New_Student = "Mohan"
+Position = 2
+Students.insert(Position,New_Student)
+print("Updated=",Students)
+
+#Testcases1
+Students = ["A","B","C"]
+New_Student = "X"
+Position = 2
+Students.insert(Position,New_Student)
+print("Updated=",Students)
+
+#tESTCASES2
+Students = ["A","B","C"]
+New_Student = "5"
+Position = 2
+Students.insert(Position,New_Student)
+print("Updated=",Students)
+
+#Testcases3
+Students = ["Java","Python"]
+New_Student ="C++"
+Position = 2
+Students.insert(Position,New_Student)
+print("Updated=",Students)
+
+#Tedtcases4
+Students = ["P","Q","R"]
+New_Student ="S"
+Position = 2
+Students.insert(Position,New_Student)
+print("Updated=",Students)
+
+OUTPUT
+Updated= ['Arun', 'Bala', 'Mohan', 'Kavin', 'Ravi']
+Updated= ['A', 'B', 'X', 'C']
+Updated= ['A', 'B', '5', 'C']
+Updated= ['Java', 'Python', 'C++']
+Updated= ['P', 'Q', 'S', 'R']
