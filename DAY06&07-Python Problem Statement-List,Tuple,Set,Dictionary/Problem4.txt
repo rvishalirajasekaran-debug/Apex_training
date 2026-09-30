@@ -1,0 +1,31 @@
+#Problem4
+Cart = ["Laptop", "Mouse", "Keyboard", "Monitor"]
+Cart.remove("Keyboard")
+print("Updated cart=",Cart)
+
+#Testcases1
+Cart = ["Pen","Book","Bag"]
+Cart.remove("Book")
+print("Updated cart=",Cart)
+
+#Testcases2
+Cart = ["A","B","C"]
+Cart.remove("A")
+print("Updated cart=",Cart)
+
+#tESTCASES3
+Cart = ["Java","Python","SQL"]
+Cart.remove("SQL")
+print("Updated cart=",Cart)
+
+#Testcases4
+Cart = ["Apple","Mango","Orange"]
+Cart.remove("Mango")
+print("Updated cart=",Cart)
+
+OUTPUT
+Updated cart= ['Laptop', 'Mouse', 'Monitor']
+Updated cart= ['Pen', 'Bag']
+Updated cart= ['B', 'C']
+Updated cart= ['Java', 'Python']
+Updated cart= ['Apple', 'Orange']
