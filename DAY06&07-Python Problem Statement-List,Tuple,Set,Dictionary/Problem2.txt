@@ -1,0 +1,37 @@
+#Problem2
+
+Existing = ["Python", "Java"]
+New = ["MySQL", "HTML", "CSS"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+#Testcases1
+Existing = ["Python"]
+New = ["Java","SQL"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+#Testcases2
+Existing = ["C","C++"]
+New = ["Java"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+#Testcase3
+Existing = []
+New = ["Python","Java"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+#Testcases4
+Existing = ["HTML"]
+New = ["CSS","JS","Bootstrap"]
+Existing.extend(New)
+print("Updated=",Existing)
+
+OUTPUT
+Updated= ['Python', 'Java', 'MySQL', 'HTML', 'CSS']
+Updated= ['Python', 'Java', 'SQL']
+Updated= ['C', 'C++', 'Java']
+Updated= ['Python', 'Java']
+Updated= ['HTML', 'CSS', 'JS', 'Bootstrap']
